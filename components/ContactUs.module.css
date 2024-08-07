@@ -1,0 +1,49 @@
+.contactUs {
+  background-image: url('https://storage.googleapis.com/wing-prod/landing-pages/partner/desktop/alphabet_history_desktop.v2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: black; /* Adjust as needed for readability */
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  color: black;
+}
+
+.form button {
+  padding: 0.75rem;
+  background-color: #2463eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #4f82ef;
+}
+@media screen and (max-width: 1023px) {
+  .contactUs {
+    height: 30rem;
+    padding: 1rem;
+  }
+}

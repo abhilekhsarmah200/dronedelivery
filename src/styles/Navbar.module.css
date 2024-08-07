@@ -1,0 +1,56 @@
+/* styles/Navbar.module.css */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  z-index: 1100;
+  scroll-behavior: smooth;
+}
+
+.show {
+  transform: translateY(0);
+}
+
+.hide {
+  transform: translateY(-100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.blackBackground {
+  background-color: white;
+}
+
+.logo {
+  color: #fff; /* Change to your desired color */
+  font-size: 1.5rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks a {
+  color: grey; /* Change to your desired color */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.blackBackground .navLinks a {
+  color: white; /* Change to your desired color */
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
